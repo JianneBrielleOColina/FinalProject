@@ -2,26 +2,26 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-  }
-  
-  .background-image {
+}
+
+.background-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #f2f2f2; /* Replace with your desired background color */
+    background-color: #f2f2f2; 
     filter: blur(10px);
     z-index: -1;
-  }
-  
-  #container, #container2 {
+}
+
+#container, #container2 {
     position: relative;
     z-index: 1;
     align-items: center;
-  }
-  
-  #container {
+}
+
+#container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,82 +31,9 @@ body {
     border: 5px solid;
     margin: 50px;
     line-height: 0%;
-  }
-  
-  #container2 { 
-    font-family: 'Inter', sans-serif;
-    font-size:30px;
-    background-color: rgba(213, 206, 145, 0.5);
-    border: 2px solid;
-    margin: -50px 50px;
-    padding: 30px;
-    height:fit-content;
-    box-sizing: border-box;
-  }
-  
-  .nav-button {
-    background-color: #4CAF50; /* Base color */
-    color: #ffffff; /* Text color */
-    padding: 10px 20px; /* Padding */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    margin: 0 10px; /* Margin between buttons */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
-  
-  .nav-button:hover {
-    background-color: #3e8e41; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lift effect */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-  }
-  
-  .nav-button:active {
-    transform: translateY(0); /* Reset lift effect on click */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow on click */
-  }
-  
-  h1, a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    margin-bottom: 20px;
-  }
-  
-  h2, a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-top: 2%;
-    Font-size:15px;
-  }
-  
-  a {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-  }
-  
-  .image-text-container {
-    font-size: 18px;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    align-items: flex-start; /* Change from center to flex-start */
-    margin-bottom: 20px;
-  }
-  
-  #container2 .image-text-container img {
-    border: 3px solid #ffffff;
-    font-family: 'Inter', sans-serif;
-    padding: 0;
-    width: 450px; /* Set the width to 100px */
-    height: 400px; /* Set the height to 100px */
-    margin-right: 20px; /* Add some space between the image and text */
-    vertical-align: top; /* Add this to align the image with the top of the text */
-  }
+}
 
-  #wawa {
+#container2 { 
     font-family: 'Inter', sans-serif;
     font-size: 30px;
     background-color: rgba(213, 206, 145, 0.5);
@@ -115,25 +42,105 @@ body {
     padding: 30px;
     height: fit-content;
     box-sizing: border-box;
-  }
-  
-  .wawawa {
-    font-size: 20px;
+}
+
+.nav-button {
+    background-color: #4CAF50;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin: 0 10px; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+    background-color: #395e28; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-button:active {
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+h1, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    color: #500000 ;
+}
+
+h1:active {
+    transform: translateY()0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+h2, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2%;
+    font-size: 15px;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: solid white; 
+}
+
+.image-text-container {
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
     display: flex;
-    flex-direction: column; /* Add this to make the image and text stack vertically */
+    align-items: flex-start; 
     margin-bottom: 20px;
-  }
-  
-  #wawa .wawawa img {
+}
+
+#container2 .image-text-container img {
     border: 3px solid #ffffff;
     font-family: 'Inter', sans-serif;
     padding: 0;
-    width: 500px; /* Set the width to 100px */
-    height: 250px; /* Set the height to 100px */
-    margin: 0 auto; /* Add this to center the image horizontally */
-    margin-bottom: 10px; /* Add some space between the image and text */
-  }
+    width: 450px; 
+    height: 400px; 
+    margin-right: 20px; 
+    vertical-align: top; 
+}
+
+#wawa {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    background-color: rgba(213, 206, 145, 0.5);
+    border: 2px solid;
+    margin: -50px 50px;
+    padding: 30px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.wawawa {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+}
+
+#wawa .wawawa img {
+    border: 3px solid #ffffff;
+    font-family: 'Inter', sans-serif; }
   
   #wawa .wawawa span { /* Add this to target the text element */
     display: block; /* Make the text element a block element */
