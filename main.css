@@ -68,6 +68,14 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow on click */
   }
   
+h1:hover {
+    color: #b60000 ;
+}
+
+h1:active {
+    transform: translateY()0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
   h1, a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
