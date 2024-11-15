@@ -165,21 +165,21 @@ a:hover {
     margin-bottom: 20px;
   }
   
-#references a {
+.rl a {
     color: #1a73e8; 
     text-decoration: none;
     transition: color 0.3s, text-decoration 0.3s; 
 }
 
-#references a:hover {
+.rl a:hover {
     color: #d93025;
     text-decoration: underline; 
 }
 
-#references a:active {
-    color: #500000; 
+.rl a:active {
+    color: #FFFFFF; 
 
 
-#references h3 {
+.rl h3 {
     margin-bottom: 20px;
 }
