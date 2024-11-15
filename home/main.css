@@ -142,8 +142,8 @@ a:hover {
     border: 3px solid #ffffff;
     font-family: 'Inter', sans-serif; }
   
-  #wawa .wawawa span { /* Add this to target the text element */
-    display: block; /* Make the text element a block element */
+  #wawa .wawawa span { 
+    display: block; 
   }
 
   #references {
@@ -161,7 +161,24 @@ a:hover {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     display: flex;
-    flex-direction: column; /* Add this to make the image and text stack vertically */
+    flex-direction: column; 
     margin-bottom: 20px;
   }
   
+#references a {
+    color: #1a73e8; 
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s; 
+}
+
+#references a:hover {
+    color: #d93025;
+    text-decoration: underline; 
+}
+
+#references a:active {
+    color: #500000; 
+
+
+#references h3 {
+    margin-bottom: 20px;
