@@ -44,19 +44,20 @@ body {
     box-sizing: border-box;
 }
 
+.video-text-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 20px; /* Space below the section */
+}
+
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    overflow: hidden;
+    flex: 0 0 300px; /* Set a fixed width for the video container */
+    margin-right: 20px; /* Space between video and text */
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Make the iframe take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
 }
 .nav-button {
     background-color: #4CAF50;
