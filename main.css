@@ -165,4 +165,18 @@ h1:active {
     flex-direction: column; /* Add this to make the image and text stack vertically */
     margin-bottom: 20px;
   }
-  
+  .video-text-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 20px; /* Space below the section */
+}
+
+.video-container {
+    flex: 0 0 300px; /* Set a fixed width for the video container */
+    margin-right: 20px; /* Space between video and text */
+}
+
+.video-container iframe {
+    width: 100%; /* Make the iframe take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
