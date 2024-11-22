@@ -54,16 +54,6 @@ font-size: 20px;
     align-items: flex-start; 
     margin-bottom: 20px; 
 }
-
-.video-container {
-    flex: 0 0 300px; 
-    margin-right: 20px; 
-}
-
-.video-container iframe {
-    width: 12%; 
-    height: auto; 
-}
 .nav-button {
     background-color: #4CAF50;
     color: #ffffff; 
@@ -206,14 +196,12 @@ a:hover {
 .rl h3 {
     margin-bottom: 20px;
 }
-.video-container {
-    width: 100%; 
-    max-width: 800px; 
-    margin: 0 auto; 
-}
 
-.video-container iframe {
-    width: 100%; 
-    height: 450px; 
-    border: none; 
-}
+.video-frame {
+    width: 100%; /* Full width or set specific size */
+    max-width: 560px; /* Max width for responsive design */
+    height: 315px; /* Adjust height accordingly */
+    border: none; /* Optional: Remove border */
+    margin: 20px auto; /* Optional: Center the iframe */
+    display: block; /* Ensure it's treated as a block element */
+  }
