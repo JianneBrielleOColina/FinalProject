@@ -54,6 +54,16 @@ font-size: 20px;
     align-items: flex-start; 
     margin-bottom: 20px; 
 }
+
+.video-container {
+    flex: 0 0 300px; 
+    margin-right: 20px; 
+}
+
+.video-container iframe {
+    width: 12%; 
+    height: auto; 
+}
 .nav-button {
     background-color: #4CAF50;
     color: #ffffff; 
@@ -64,14 +74,15 @@ font-size: 20px;
     margin: 0 10px; 
     font-size: 16px; 
     transition-property: transform, background-color;
-    transition-duration: 1.5s, 1s;
+    transition-delay: 2s;
+    transition-duration: 3s, 3s;
     transition-timing-function: ease-in, ease-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-button:hover {
     background-color: #395e28; 
-    transform: scale(1.5); 
+    transform: scale(3); 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
 }
 
