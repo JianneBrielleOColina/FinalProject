@@ -1,3 +1,4 @@
+
 body {
     position: relative;
     margin: 0;
@@ -49,9 +50,9 @@ font-size: 20px;
 }
 
 .video-text-container {
-    display: flex; /* Use Flexbox for layout */
-    align-items: flex-start; /* Align items at the start */
-    margin-bottom: 20px; /* Space below the section */
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 20px; 
 }
 
 .video-container {
@@ -72,13 +73,15 @@ font-size: 20px;
     cursor: pointer; 
     margin: 0 10px; 
     font-size: 16px; 
-    transition: background-color 0.3s, transform 0.3s;
+    transition-property: transform, background-color;
+    transition-duration: 1.5s, 1s;
+    transition-timing-function: ease-in, ease-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-button:hover {
     background-color: #395e28; 
-    transform: translateY(-2px); 
+    transform: scale(1.5); 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
 }
 
@@ -197,20 +200,20 @@ a:hover {
 
 .rl a:active {
     color: #FFFFFF; 
+}
 
 
 .rl h3 {
     margin-bottom: 20px;
 }
 .video-container {
-    /* Set the container to be responsive */
-    width: 100%; /* Allow it to take full width of its parent */
-    max-width: 800px; /* Set a max width for larger screens */
-    margin: 0 auto; /* Center the video container */
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .video-container iframe {
-    width: 100%; /* Make the iframe take the full width of its container */
-    height: 450px; /* Set a fixed height for the iframe */
-    border: none; /* Remove default border */
+    width: 100%; 
+    height: 450px; 
+    border: none; 
 }
