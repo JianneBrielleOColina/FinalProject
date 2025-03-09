@@ -3,7 +3,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
@@ -73,7 +73,28 @@
                     </p>
                 </div>
             </article>
+
+            <article>
+                <div class="quiz-container">
+                    <h3><u><b>QUIZ</b></u></h3>
+                    <p>Time Left: <span id="timer">120</span> seconds</p>
+                    <div id="quiz">
+                        <p class="question" id="question"></p>
+                        <div class="options" id="options"></div>
+                        <div class="quiz-buttons">
+                            <button id="prevBtn" class="hidden">Previous</button>
+                            <button id="nextBtn" class="hidden">Next</button>
+                            <button id="submitBtn" class="hidden">Submit</button>
+                        </div>
+                    </div>
+                    <div id="result" class="hidden">
+                        <h2>Your Score: <span id="score"></span></h2>
+                        <p id="feedback"></p>
+                    </div>
+                </div>
+            </article>
             
+
         <footer class="site-footer">
             <div class="footer-content">
               <p>&copy; Jianne Brielle O. Colina. Grade 9 Calcium 2024-2025.</p>
@@ -81,5 +102,6 @@
           </footer>
         </main>
 
+    <script src="script.js"></script>
 </body>
 </html>

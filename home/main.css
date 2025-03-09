@@ -316,4 +316,112 @@ a[href$=".pdf"] {
 
 a[href*="example"] {
     color: orange; 
+
+    .hidden {
+        display: none !important;
+    }
+    
+    
+.quiz-container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Question Styling */
+.question {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #500000;
+    background-color: white;
+    color: #500000;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #500000;
+    color: white;
+}
+
+.correct {
+    background-color: #28a745 !important;
+    color: white;
+    border-color: #1e7e34;
+}
+
+.incorrect {
+    background-color: #dc3545 !important;
+    color: white;
+    border-color: #a71d2a;
+}
+
+
+
+#nextBtn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none; 
+}
+
+#nextBtn:hover {
+    background-color: #0056b3;
+}
+
+
+#nextBtn:hover {
+    background-color: #0056b3;
+}
+
+
+#result {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d93025;
+
+.quiz-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+}
+    
 }
