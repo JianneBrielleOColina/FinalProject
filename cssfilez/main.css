@@ -410,6 +410,7 @@ a[href*="example"] {
 }
 
 #result {
+    color:#CD1B1B;
     display: none;
     margin-top: 20px;
     font-size: 18px;
@@ -417,8 +418,9 @@ a[href*="example"] {
 }
 
 #score {
+    color:#ffffff;
     font-size: 22px;
-    color: #500000;
+    color: #;
 }
 
 #feedback {
