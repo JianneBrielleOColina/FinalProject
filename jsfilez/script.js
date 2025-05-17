@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("signup-form");
-    const alreadyAccountBtn = document.getElementById("already-account");
+    const alreadyAccountBtn = document.getElementById("have-account");
     const noValuesMsg = document.getElementById("no-values-msg");
 
     if (alreadyAccountBtn) {
