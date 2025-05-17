@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             answer: 2
         },
         {
-            question: "How does divorce contribute to SDG 16 (Peace, Justice, and Strong Institutions)?",
+            question: "What SDG promotes Peace, Justice, and Strong Institutions?",
             options: ["SDG 4", "SDG 3", "SDG 11", "SDG 16"],
             answer: 3
         }
