@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enveloped Estrangement || Sign Up!</title>
+    <link rel="stylesheet" href="cssfilez/style.css">
+    <script defer src="jsfilez/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Enveloped Estrangement</h1>
+        <p class="tagline">The Importance of Legalizing Divorce in the Philippines</p>
+    </header>
+
+    <main class="form-container">
+        <h2>Sign Up and Promote Divorce Today!</h2>
+        <p class="line">Aside from the Vatican, the Philippines is the only country in the world that does not legalize divorce. Enveloped Estrangement is a digital campaign advocating for the legalization of divorce in the Philippines — championing freedom, dignity, and the right to a second chance.</p>
+        <form id="signup-form">
+            <label>First Name <span class="required">*</span>
+                <input type="text" id="first-name"><br>
+            </label>
+            <span class="error" id="errorfname"></span>
+
+            <label>Last Name <span class="required">*</span>
+                <input type="text" id="last-name"><br>
+            </label>
+            <span class="error" id="errorlname"></span>
+
+            <label>Sex: <span class="required">*</span></label>
+            <div class="radio-group">
+                <label><input type="radio" name="sex" value="Male"> Male</label>
+                <label><input type="radio" name="sex" value="Female"> Female</label>
+                <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+            </div>
+            <span class="error" id="errorsex"></span>
+
+            <label>Email Address <span class="required">*</span>
+                <input type="email" id="email"><br>
+            </label>
+            <span class="error" id="erroremail"></span>
+
+            <label>Password <span class="required">*</span>
+                <input type="password" id="password">
+            </label>
+            <span class="error" id="errorpassword"></span>
+
+            <label>Contact Number
+                <input type="text" id="contact">
+            </label>
+
+            <label>Why do you want to support our campaign for the legalization of divorce? <span class="required">*</span>
+                <textarea id="reason"></textarea>
+            </label>
+            <span class="error" id="errorreason"></span>
+
+            <button type="submit">Sign up & Support Campaign!</button>
+            <button type="button" id="have-account">I already have an account.</button>
+            <p id="no-values-msg" style="color: red; text-align: center; margin-top: 10px; display: none;">No values found</p>
+        </form>
+    </main>
+</body>
+</html>
