@@ -420,7 +420,6 @@ a[href*="example"] {
 #score {
     color: #cd1b1b;
     font-size: 22px;
-    color: #;
 }
 
 #feedback {
@@ -435,7 +434,6 @@ a[href*="example"] {
     color: #d93025;
 }
 
-/* Responsive tweaks */
 @media (max-width: 600px) {
     .quiz-container {
         padding: 20px;
